@@ -3,7 +3,7 @@
  }
 
  .welcome {
-     height: 90vh;
+     height: 100vh;
      background-image: url('../img/welcome.jpg');
      background-position: center;
      background-attachment: fixed;
@@ -127,10 +127,39 @@
 .section-c {
     padding-top: 40px;
     padding-bottom: 40px;
+
 }
 
 .section-c img {
     width: 50%;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: transform .2s;
+    opacity: 0.8;
+}
+
+.section-c img:hover{
+	transform: scale(1.5);
+	z-index: 999999999999;
+	opacity: 1;
+}
+
+.section-c h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+.section-c-back{
+	background-image: url('../img/photo_pattern.png');
+	background-repeat: repeat;
 
 }
 
+
+.card-text{
+	color:black;
+	font-weight: normal;
+	font-size: 20px;
+}
