@@ -57,6 +57,9 @@
      color: white !important;
      font-size: 30px;
      font-weight: bold;
+     -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
  }
 
  .navbar-brand {
@@ -152,7 +155,8 @@
 }
 
 .section-c-back{
-	background-image: url('../img/photo_pattern.png');
+	/*background-image: url('../img/photo_pattern.png');*/
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 	background-repeat: repeat;
 
 }
